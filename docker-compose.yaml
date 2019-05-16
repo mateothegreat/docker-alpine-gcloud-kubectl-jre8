@@ -8,7 +8,7 @@ services:
         restart: always
         environment: 
           - GCLOUD_KEY_FILE=/service_account.json
-          - GCLOUD_PROJECT=managix-devops
-          - GCLOUD_ZONE=asia-southeast1-a
+          - GCLOUD_PROJECT=
+          - GCLOUD_ZONE=
         command:
           - gcloud projects list
