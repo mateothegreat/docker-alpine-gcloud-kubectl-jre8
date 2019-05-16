@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM openjdk:8-jre-alpine
 
 ENV GCLOUD_COMPONENTS="kubectl beta docker-credential-gcr"
 
